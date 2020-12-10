@@ -14,7 +14,7 @@ xlim([-2,32])
 ylim([-3,22])
 
 %% SOLUTION: Breakout 1
-
+% 
 % %read in data
 % data = csvread('data/upper_banner.csv');
 % %plot data
@@ -24,6 +24,6 @@ ylim([-3,22])
 % l.EdgeColor = color; 
 % xlim([-2,32])
 % ylim([-3,22])
-% 
-% %plot text
-% text(2.5,1.5, 'Marquette rocks!', 'FontSize', 10)  % per reviewer comment
+
+%plot text
+text(2.5,1.5, 'Marquette rocks!', 'FontSize', 10)  % per reviewer comment
